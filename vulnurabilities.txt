@@ -1,0 +1,15 @@
+Vulnurabilities:
+Blind SQL injection: Time Based or Error Bases sql injection
+Port Scanning:  Installation of Conjurpostgres database with open port
+Sql injection: Improper input validation
+XSS cross site scripting : Store XSS vulnurabilities in form 
+e.g
+[*] Form details:
+{'action': 'search.php',
+ 'inputs': [{'name': 'txtsearch',
+             'type': 'text',
+             'value': '<script>alert(1)</script>'},
+            {'name': None, 'type': 'image'}],
+ 'method': 'post'}
+True {'action': 'search.php', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'txtsearch', 'value': '<script>alert(1)</script>'}, 
+{'type': 'image', 'name': None}]} <script>alert(1)</script>

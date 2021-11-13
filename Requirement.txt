@@ -1,0 +1,9 @@
+pip install urllib3
+pip install bs4
+pip install re
+pip install requests
+pip install tkinter
+pip install socket 
+pip install pillow
+pip install validators
+pip install webbrowser

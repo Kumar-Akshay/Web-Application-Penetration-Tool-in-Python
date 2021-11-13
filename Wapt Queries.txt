@@ -1,0 +1,24 @@
+
+
+
+SQL and Blind Sql
+http://www.everyway-medical.com/products.php?id=2
+www.everyway-medical.com/products.php?id=2
+https://www.kicsit.edu.pk/index
+https://www.guidestar.org/profile/94-3387536
+http://www.hr1384.com.pk/
+
+XSS
+http://www.kaizerpk.com/
+https://vardishotel.gr/
+
+Open Ports
+www.kaizerpk.com
+www.vardishotel.gr	
+
+
+
+//Broken Authentication
+
+https://rational.org/index.php?id=1
+https://host201509.comsatshosting.com:2096/

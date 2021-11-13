@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Report Generating</title>
+    <link href="css/kube.min.css" rel="stylesheet">
+    <link href="css/master.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+</head>
+    
+  </head>
+  <body   >
+    <div id="page">
+        <header style="text-align: center">
+        <h2 class="title" style="text-align: center">Web Application Penetration Testing</h2>
+        <h3>Target: {Target_url}</h3>
+        <p>Date of the scan: {Time}</p>
+        </header>
+        <hr />
+        <h4>Summary</h4>
+        <table class="width-100 hovered" style="background: url('logo_clear.png') no-repeat center;">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Vulnerability/Open Ports</th>
+                </tr>
+            </thead>
+            <tbody id="summary">
+                    <tr>
+                        <td class="small">
+                          
+                           {Vulnerability_Name}
+                        </td>
+                        <td class="small .text-centered">{Status}</td>
+                    </tr>
+                  </table>
+          <div id="details">
+            <h3 id="vuln_type_1">{VulnerabilityCause}</h3>
+            <dl>
+                <dt>Description</dt>
+                <dd>{VulnerabilityDescription}</dd>
+                <dt>Solution</dt>
+                <dd>{VulnerableSol}</dd>
+            </dl>
+
+                    <h4>Vulnerable Url/Form :  {VulnerableUrl}</h4>
+
+                  </div>
+                  
+  </body>
+</html>
